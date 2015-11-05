@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="rare-earth-metal">
+<element series="rare_earth_metal">
    <name>Curium</name>
    <symbol>Cm</symbol>
-   <atomic-number>96</atomic-number>
-   <mass-number>247</mass-number>
+   <atomic_number>96</atomic_number>
+   <mass_number>247</mass_number>
    <electronegativity>1.3</electronegativity>
-   <melting-point>1340</melting-point>
+   <melting_point>1340</melting_point>
    <density>13.51</density>
-   <thermal-conductivity>0.1</thermal-conductivity>
+   <thermal_conductivity>0.1</thermal_conductivity>
 </element>

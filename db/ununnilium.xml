@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Ununnilium</name>
    <symbol>Unn</symbol>
-   <atomic-number>110</atomic-number>
-   <mass-number>272</mass-number>
+   <atomic_number>110</atomic_number>
+   <mass_number>272</mass_number>
 </element>

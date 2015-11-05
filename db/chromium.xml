@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Chromium</name>
    <symbol>Cr</symbol>
-   <atomic-number>24</atomic-number>
-   <mass-number>52</mass-number>
+   <atomic_number>24</atomic_number>
+   <mass_number>52</mass_number>
    <electronegativity>1.66</electronegativity>
-   <covalent-radius>1.17</covalent-radius>
-   <atomic-radius>1.85</atomic-radius>
-   <melting-point>2130.0</melting-point>
-   <boiling-point>2945</boiling-point>
+   <covalent_radius>1.17</covalent_radius>
+   <atomic_radius>1.85</atomic_radius>
+   <melting_point>2130.0</melting_point>
+   <boiling_point>2945</boiling_point>
    <density>7.19</density>
-   <specific-heat>0.45</specific-heat>
-   <electrical-conductivity>0.0774e6</electrical-conductivity>
-   <thermal-conductivity>0.937</thermal-conductivity>
+   <specific_heat>0.45</specific_heat>
+   <electrical_conductivity>0.0774e6</electrical_conductivity>
+   <thermal_conductivity>0.937</thermal_conductivity>
 </element>

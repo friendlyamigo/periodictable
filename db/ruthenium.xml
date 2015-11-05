@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Ruthenium</name>
    <symbol>Ru</symbol>
-   <atomic-number>44</atomic-number>
-   <mass-number>101</mass-number>
+   <atomic_number>44</atomic_number>
+   <mass_number>101</mass_number>
    <electronegativity>2.2</electronegativity>
-   <covalent-radius>1.25</covalent-radius>
-   <atomic-radius>1.89</atomic-radius>
-   <melting-point>2523.0</melting-point>
-   <boiling-point>4423.0</boiling-point>
+   <covalent_radius>1.25</covalent_radius>
+   <atomic_radius>1.89</atomic_radius>
+   <melting_point>2523.0</melting_point>
+   <boiling_point>4423.0</boiling_point>
    <density>12.2</density>
-   <specific-heat>0.238</specific-heat>
-   <electrical-conductivity>0.137e6</electrical-conductivity>
-   <thermal-conductivity>1.17</thermal-conductivity>
+   <specific_heat>0.238</specific_heat>
+   <electrical_conductivity>0.137e6</electrical_conductivity>
+   <thermal_conductivity>1.17</thermal_conductivity>
 </element>

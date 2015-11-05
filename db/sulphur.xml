@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="non-metal">
+<element series="non_metal">
    <name>Sulphur</name>
    <symbol>S</symbol>
-   <atomic-number>16</atomic-number>
-   <mass-number>32</mass-number>
+   <atomic_number>16</atomic_number>
+   <mass_number>32</mass_number>
    <electronegativity>2.58</electronegativity>
-   <covalent-radius>1.04</covalent-radius>
-   <atomic-radius>1.09</atomic-radius>
-   <melting-point>388.36</melting-point>
-   <boiling-point>717.75</boiling-point>
+   <covalent_radius>1.04</covalent_radius>
+   <atomic_radius>1.09</atomic_radius>
+   <melting_point>388.36</melting_point>
+   <boiling_point>717.75</boiling_point>
    <density>2.07</density>
-   <specific-heat>0.71</specific-heat>
-   <electrical-conductivity>0.5e-17</electrical-conductivity>
-   <thermal-conductivity>0.00269</thermal-conductivity>
+   <specific_heat>0.71</specific_heat>
+   <electrical_conductivity>0.5e_17</electrical_conductivity>
+   <thermal_conductivity>0.00269</thermal_conductivity>
    <isotopes>
-      <isotope><mass-number>32</mass-number><abundance>94.93</abundance></isotope>
-      <isotope><mass-number>33</mass-number><abundance>0.76</abundance></isotope>
-      <isotope><mass-number>34</mass-number><abundance>4.29</abundance></isotope>
-      <isotope><mass-number>36</mass-number><abundance>0.02</abundance></isotope>
+      <isotope><mass_number>32</mass_number><abundance>94.93</abundance></isotope>
+      <isotope><mass_number>33</mass_number><abundance>0.76</abundance></isotope>
+      <isotope><mass_number>34</mass_number><abundance>4.29</abundance></isotope>
+      <isotope><mass_number>36</mass_number><abundance>0.02</abundance></isotope>
    </isotopes>
 </element>

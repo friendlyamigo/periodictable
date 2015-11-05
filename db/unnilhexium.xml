@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Unnilhexium</name>
    <symbol>Unh</symbol>
-   <atomic-number>106</atomic-number>
-   <mass-number>263</mass-number>
+   <atomic_number>106</atomic_number>
+   <mass_number>263</mass_number>
 </element>

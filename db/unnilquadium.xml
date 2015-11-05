@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Unnilquadium</name>
    <symbol>Unq</symbol>
-   <atomic-number>104</atomic-number>
-   <mass-number>261</mass-number>
-   <thermal-conductivity>0.23</thermal-conductivity>
+   <atomic_number>104</atomic_number>
+   <mass_number>261</mass_number>
+   <thermal_conductivity>0.23</thermal_conductivity>
 </element>

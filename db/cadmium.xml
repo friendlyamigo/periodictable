@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Cadmium</name>
    <symbol>Cd</symbol>
-   <atomic-number>48</atomic-number>
-   <mass-number>112</mass-number>
+   <atomic_number>48</atomic_number>
+   <mass_number>112</mass_number>
    <electronegativity>1.69</electronegativity>
-   <covalent-radius>1.41</covalent-radius>
-   <atomic-radius>1.71</atomic-radius>
-   <melting-point>564.18</melting-point>
-   <boiling-point>1040</boiling-point>
+   <covalent_radius>1.41</covalent_radius>
+   <atomic_radius>1.71</atomic_radius>
+   <melting_point>564.18</melting_point>
+   <boiling_point>1040</boiling_point>
    <density>8.65</density>
-   <specific-heat>0.23</specific-heat>
-   <electrical-conductivity>0.138e6</electrical-conductivity>
-   <thermal-conductivity>0.968</thermal-conductivity>
+   <specific_heat>0.23</specific_heat>
+   <electrical_conductivity>0.138e6</electrical_conductivity>
+   <thermal_conductivity>0.968</thermal_conductivity>
 </element>

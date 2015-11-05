@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Actinium</name>
    <symbol>Ac</symbol>
-   <atomic-number>89</atomic-number>
-   <mass-number>227</mass-number>
+   <atomic_number>89</atomic_number>
+   <mass_number>227</mass_number>
    <electronegativity>1.1</electronegativity>
-   <melting-point>1323</melting-point>
-   <boiling-point>3473</boiling-point>
+   <melting_point>1323</melting_point>
+   <boiling_point>3473</boiling_point>
    <density>10.07</density>
-   <thermal-conductivity>0.12</thermal-conductivity>
+   <thermal_conductivity>0.12</thermal_conductivity>
 </element>

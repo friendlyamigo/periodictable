@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="transition-metal">
+<element series="transition_metal">
    <name>Unnilpentium</name>
    <symbol>Unp</symbol>
-   <atomic-number>105</atomic-number>
-   <mass-number>262</mass-number>
-   <thermal-conductivity>0.58</thermal-conductivity>
+   <atomic_number>105</atomic_number>
+   <mass_number>262</mass_number>
+   <thermal_conductivity>0.58</thermal_conductivity>
 </element>

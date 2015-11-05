@@ -1,5 +1,7 @@
 {
   "name": "periodictable",
+  "description": "Periodic tabel of elements",
+  "author": "jackfriend",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "gulp-jade": "^1.1.0",

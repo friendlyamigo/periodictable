@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     browsersync = require('browser-sync'),
     jade = require('gulp-jade');
 
+// sass problem
 gulp.task('sass', function(){
   gulp.src('src/sass/main.sass')
   .pipe(sass())

@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="alkali-metal">
+<element series="alkali_metal">
    <name>Potassium</name>
    <symbol>K</symbol>
-   <atomic-number>19</atomic-number>
-   <mass-number>39</mass-number>
+   <atomic_number>19</atomic_number>
+   <mass_number>39</mass_number>
    <electronegativity>0.82</electronegativity>
-   <covalent-radius>2.025</covalent-radius>
-   <atomic-radius>2.77</atomic-radius>
-   <melting-point>336.35</melting-point>
-   <boiling-point>1032.0</boiling-point>
+   <covalent_radius>2.025</covalent_radius>
+   <atomic_radius>2.77</atomic_radius>
+   <melting_point>336.35</melting_point>
+   <boiling_point>1032.0</boiling_point>
    <density>0.862</density>
-   <specific-heat>0.75</specific-heat>
-   <electrical-conductivity>0.139e6</electrical-conductivity>
-   <thermal-conductivity>1.024</thermal-conductivity>
+   <specific_heat>0.75</specific_heat>
+   <electrical_conductivity>0.139e6</electrical_conductivity>
+   <thermal_conductivity>1.024</thermal_conductivity>
    <isotopes>
-      <isotope><mass-number>39</mass-number><abundance>93.26</abundance></isotope>
-      <isotope><mass-number>40</mass-number><abundance>0.012</abundance></isotope>
-      <isotope><mass-number>41</mass-number><abundance>6.73</abundance></isotope>
+      <isotope><mass_number>39</mass_number><abundance>93.26</abundance></isotope>
+      <isotope><mass_number>40</mass_number><abundance>0.012</abundance></isotope>
+      <isotope><mass_number>41</mass_number><abundance>6.73</abundance></isotope>
    </isotopes>
 </element>

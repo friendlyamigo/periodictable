@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <!DOCTYPE element SYSTEM "elements.dtd">
-<element series="non-metal">
+<element series="non_metal">
    <name>Selenium</name>
    <symbol>Se</symbol>
-   <atomic-number>34</atomic-number>
-   <mass-number>79</mass-number>
+   <atomic_number>34</atomic_number>
+   <mass_number>79</mass_number>
    <electronegativity>2.55</electronegativity>
-   <covalent-radius>1.17</covalent-radius>
-   <atomic-radius>1.22</atomic-radius>
-   <melting-point>494.0</melting-point>
-   <boiling-point>958.0</boiling-point>
+   <covalent_radius>1.17</covalent_radius>
+   <atomic_radius>1.22</atomic_radius>
+   <melting_point>494.0</melting_point>
+   <boiling_point>958.0</boiling_point>
    <density>4.79</density>
-   <specific-heat>0.32</specific-heat>
-   <electrical-conductivity>1.0e-6</electrical-conductivity>
-   <thermal-conductivity>0.0204</thermal-conductivity>
+   <specific_heat>0.32</specific_heat>
+   <electrical_conductivity>1.0e_6</electrical_conductivity>
+   <thermal_conductivity>0.0204</thermal_conductivity>
 </element>
