@@ -4,7 +4,6 @@ var gulp = require('gulp'),
     browsersync = require('browser-sync'),
     jade = require('gulp-jade');
 
-// sass problem
 gulp.task('sass', function(){
   gulp.src('src/sass/main.sass')
   .pipe(sass())
@@ -31,8 +30,8 @@ gulp.task('js', function(){
 });
 
 gulp.task('server', ['sass','js', 'jade', 'browsersync'],function(){
-  gulp.watch('src/sass/*.*', ['sass']);
-  gulp.watch('src/jade/*.*', ['jade']);
+  gulp.watch('src/sass/**/*.*', ['sass']);
+  gulp.watch('src/jade/**/*.*', ['jade']);
   gulp.watch('src/*.js', ['js']);
   gulp.watch('dest/*.*').on('change', browsersync.reload);
 });

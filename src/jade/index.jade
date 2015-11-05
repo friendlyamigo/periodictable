@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Periodic Table of Elements
+    link(rel="stylesheet", href="main.css")
+  body
+    h1 Periodic Table
+    table
+      tbody
+        include rows/row-one.jade
+        include rows/row-two.jade
+        include rows/row-three.jade
+        include rows/row-four.jade
+        include rows/row-five.jade
+        include rows/row-six.jade
+        include rows/row-seven.jade
+    script(src="jquery-2.1.4.min.js")
+    script(src="functions.js")

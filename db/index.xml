@@ -12,6 +12,7 @@
    <element name="Berkelium" symbol="Bk" xlink:href="berkelium.xml"/>
    <element name="Beryllium" symbol="Be" xlink:href="beryllium.xml"/>
    <element name="Bismuth" symbol="Bi" xlink:href="bismuth.xml"/>
+   <element name="Bohrium" symbol="Bh" xlink:href="bohrium.xml"/>
    <element name="Boron" symbol="B" xlink:href="boron.xml"/>
    <element name="Bromine" symbol="Br" xlink:href="bromine.xml"/>
    <element name="Cadmium" symbol="Cd" xlink:href="cadmium.xml"/>
@@ -23,9 +24,12 @@
    <element name="Chlorine" symbol="Cl" xlink:href="chlorine.xml"/>
    <element name="Chromium" symbol="Cr" xlink:href="chromium.xml"/>
    <element name="Cobalt" symbol="Co" xlink:href="cobalt.xml"/>
+   <element name="Copernicium" symbol="Uub" xlink:href="copernicium.xml"/>
    <element name="Copper" symbol="Cu" xlink:href="copper.xml"/>
    <element name="Curium" symbol="Cm" xlink:href="curium.xml"/>
+   <element name="Darmstadtium" symbol="Ds" xlink:href="darmstadtium.xml"/>
    <element name="Dysprosium" symbol="Dy" xlink:href="dysprosium.xml"/>
+   <element name="Dubnium" symbol="Db" xlink:href="dubnium.xml"/>
    <element name="Einsteinium" symbol="Es" xlink:href="einsteinium.xml"/>
    <element name="Erbium" symbol="Er" xlink:href="erbium.xml"/>
    <element name="Europium" symbol="Eu" xlink:href="europium.xml"/>
@@ -37,6 +41,7 @@
    <element name="Germanium" symbol="Ge" xlink:href="germanium.xml"/>
    <element name="Gold" symbol="Au" xlink:href="gold.xml"/>
    <element name="Hafnium" symbol="Hf" xlink:href="hafnium.xml"/>
+   <element name="Hassium" symbol="Hs" xlink:href="hassium.xml"/>
    <element name="Helium" symbol="He" xlink:href="helium.xml"/>
    <element name="Holmium" symbol="Ho" xlink:href="holmium.xml"/>
    <element name="Hydrogen" symbol="H" xlink:href="hydrogen.xml"/>
@@ -50,8 +55,10 @@
    <element name="Lead" symbol="Pb" xlink:href="lead.xml"/>
    <element name="Lithium" symbol="Li" xlink:href="lithium.xml"/>
    <element name="Lutetium" symbol="Lu" xlink:href="lutetium.xml"/>
+   <element name="Livermorium" symbol="Uuh" xlink:href="livermorium.xml"/>
    <element name="Magnesium" symbol="Mg" xlink:href="magnesium.xml"/>
    <element name="Manganese" symbol="Mn" xlink:href="manganese.xml"/>
+   <element name="Meitnerium" symbol="Mt" xlink:href="meitnerium.xml"/>
    <element name="Mendelevium" symbol="Md" xlink:href="mendelevium.xml"/>
    <element name="Mercury" symbol="Hg" xlink:href="mercury.xml"/>
    <element name="Molybdenum" symbol="Mo" xlink:href="molybdenum.xml"/>
@@ -77,10 +84,13 @@
    <element name="Radon" symbol="Rn" xlink:href="radon.xml"/>
    <element name="Rhenium" symbol="Re" xlink:href="rhenium.xml"/>
    <element name="Rhodium" symbol="Rh" xlink:href="rhodium.xml"/>
+   <element name="Roentgenium" symbol="Rg" xlink:href="roentgenium.xml"/>
    <element name="Rubidium" symbol="Rb" xlink:href="rubidium.xml"/>
+   <element name="Rutherfordium" symbol="Rf" xlink:href="rutherfordium.xml"/>
    <element name="Ruthenium" symbol="Ru" xlink:href="ruthenium.xml"/>
    <element name="Samarium" symbol="Sm" xlink:href="samarium.xml"/>
    <element name="Scandium" symbol="Sc" xlink:href="scandium.xml"/>
+   <element name="Seaborgium" symbol="Sg" xlink:href="seaborgium.xml"/>
    <element name="Selenium" symbol="Se" xlink:href="selenium.xml"/>
    <element name="Silicon" symbol="Si" xlink:href="silicon.xml"/>
    <element name="Silver" symbol="Ag" xlink:href="silver.xml"/>
@@ -95,6 +105,7 @@
    <element name="Thorium" symbol="Th" xlink:href="thorium.xml"/>
    <element name="Thulium" symbol="Tm" xlink:href="thulium.xml"/>
    <element name="Tin" symbol="Sn" xlink:href="tin.xml"/>
+   <element name="Flerovium" symbol="Uuq" xlink:href="flerovium.xml"/>
    <element name="Titanium" symbol="Ti" xlink:href="titanium.xml"/>
    <element name="Tungsten" symbol="W" xlink:href="tungsten.xml"/>
    <element name="Unnilennium" symbol="Une" xlink:href="unnilennium.xml"/>
@@ -104,6 +115,10 @@
    <element name="Unnilquadium" symbol="Unq" xlink:href="unnilquadium.xml"/>
    <element name="Unnilseptium" symbol="Uns" xlink:href="unnilseptium.xml"/>
    <element name="Ununnilium" symbol="Unn" xlink:href="ununnilium.xml"/>
+   <element name="Ununoctium" symbol="Uuo" xlink:href="ununoctium.xml"/>
+   <element name="Ununpentium" symbol="Uup" xlink:href="ununpentium.xml"/>
+   <element name="Ununseptium" symbol="Uus" xlink:href="ununseptium.xml"/>
+   <element name="Ununtrium" symbol="Uut" xlink:href="ununtrium.xml"/>
    <element name="Uranium" symbol="U" xlink:href="uranium.xml"/>
    <element name="Vanadium" symbol="V" xlink:href="vanadium.xml"/>
    <element name="Xenon" symbol="Xe" xlink:href="xenon.xml"/>
