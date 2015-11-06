@@ -14,4 +14,5 @@
    <specific_heat>0.82</specific_heat>
    <electrical_conductivity>0.0</electrical_conductivity>
    <thermal_conductivity>0.000279</thermal_conductivity>
+   <diatomic/>
 </element>

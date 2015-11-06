@@ -21,4 +21,5 @@
       <isotope><mass_number>1</mass_number><abundance>99.985</abundance></isotope>
       <isotope><mass_number>2</mass_number><abundance>0.015</abundance></isotope>
    </isotopes>
+   <diatomic/>
 </element>
