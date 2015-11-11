@@ -1,42 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,600,400,300);
+
 * {
   font-family: 'Open Sans';
-  color: #9B9C9B; }
+  color: #9B9C9B;
+}
 
 .title {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 3em;
-  font-weight: 'Raleway'; }
+  font-weight: 'Raleway';
+}
 
 .cursive {
   font-family: 'Lobster';
   text-transform: lowercase;
-  font-size: .75em; }
+  font-size: .75em;
+}
 
 td {
   font-weight: 800;
-  font-size: 2em;
-  text-align: center; }
+  font-size:2em;
+  text-align: center;
+}
 
 .uub, .uut, .uuq, .uup, .uuh, .uus, .uuo {
-  font-size: 1.75em; }
-
-body {
-  margin: auto;
-  padding: 0;
-  background-color: #130F0D; }
-
-table {
-  border-collapse: collapse; }
-
-td {
-  padding: 10px;
-  border: 5px solid  #A88976;
-  min-width: 60px;
-  height: 60px; }
-
-.hidden {
-  border: none; }
+  font-size: 1.75em;
+}
