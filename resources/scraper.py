@@ -127,7 +127,7 @@ charges_dict = {
 }
 
 # open index.xml
-with open('db/index.xml') as f:
+with open('resources/db/index.xml') as f:
     tabledict = xmltodict.parse(f)
 
 
@@ -176,7 +176,7 @@ for element in elements:
     # get element name
     element_name = element['@name']
     # open individual element xml
-    element_dict = open('db/' + element_name + '.xml')
+    element_dict = open('resources/db/' + element_name + '.xml')
     element_dict = xmltodict.parse(element_dict)
     # turn elelment_dict into a dict
     spam = element_dict['element']

@@ -1,13 +1,14 @@
 'use strict';
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-ruby-sass'),
     browsersync = require('browser-sync'),
+    shell = require('gulp-shell'),
     jade = require('gulp-jade');
 
 gulp.task('sass', function(){
-  gulp.src('src/sass/main.sass')
-  .pipe(sass())
-  .pipe(gulp.dest('dest'));
+  sass('src/imports.sass')
+  .on('error', sass.logError)
+  .pipe(gulp.dest('dest/main.css'));
 });
 
 gulp.task('jade', function(){
@@ -29,13 +30,13 @@ gulp.task('js', function(){
   .pipe(gulp.dest('dest'));
 });
 
-gulp.task('server', ['sass','js', 'jade', 'browsersync'],function(){
+gulp.task('scrape', shell.task([
+  'python resources/scraper.py'
+]));
+
+gulp.task('default', ['sass','js', 'jade', 'browsersync'],function(){
   gulp.watch('src/sass/**/*.*', ['sass']);
   gulp.watch('src/jade/**/*.*', ['jade']);
   gulp.watch('src/*.js', ['js']);
   gulp.watch('dest/*.*').on('change', browsersync.reload);
-});
-
-gulp.task('default', function(){
-
 });

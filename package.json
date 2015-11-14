@@ -4,7 +4,9 @@
   "author": "jackfriend",
   "devDependencies": {
     "browser-sync": "^2.9.12",
+    "gulp": "^3.9.0",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.1.0"
+    "gulp-ruby-sass": "^2.0.5",
+    "gulp-shell": "^0.5.1"
   }
 }
