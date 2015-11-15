@@ -6,9 +6,9 @@ var gulp = require('gulp'),
     jade = require('gulp-jade');
 
 gulp.task('sass', function(){
-  sass('src/imports.sass')
+  return sass('src/sass/main.sass')
   .on('error', sass.logError)
-  .pipe(gulp.dest('dest/main.css'));
+  .pipe(gulp.dest('dest'));
 });
 
 gulp.task('jade', function(){

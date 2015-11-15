@@ -3,16 +3,33 @@ html
   head
     title Periodic Table of the Elements
     link(rel="stylesheet", href="main.css")
-  body
+  body    
     h1.title Periodic Table <span class="cursive">of&nbspthe</span> Elements
-    table
-      tbody
-        include rows/row-one.jade
-        include rows/row-two.jade
-        include rows/row-three.jade
-        include rows/row-four.jade
-        include rows/row-five.jade
-        include rows/row-six.jade
-        include rows/row-seven.jade
+    
+    .table-container
+      
+      table.primary-table
+        thead
+          td.hidden
+          td.heading.hidden I
+          each i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+            td.hidden
+          td.heading.hidden XVIII        
+        tbody
+          include rows/row-one.jade
+          include rows/row-two.jade
+          include rows/row-three.jade
+          include rows/row-four.jade
+          include rows/row-five.jade
+          include rows/row-six.jade
+          include rows/row-seven.jade
+      table.secondary-table
+        tbody
+          include rows/secondary-row-one.jade
+          include rows/secondary-row-two.jade
+  
+  .element-info
+    
+  
     script(src="jquery-2.1.4.min.js")
     script(src="functions.js")

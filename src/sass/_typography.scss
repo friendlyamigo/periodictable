@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,600,400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
 
 * {
   font-family: 'Open Sans';
@@ -28,4 +29,12 @@ td {
 
 .uub, .uut, .uuq, .uup, .uuh, .uus, .uuo {
   font-size: 1.75em;
+}
+
+.heading {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 1.4em;
+  vertical-align: bottom;
+  color: #a88976;
 }
