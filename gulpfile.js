@@ -3,11 +3,13 @@ var gulp = require('gulp'),
     sass = require('gulp-ruby-sass'),
     browsersync = require('browser-sync'),
     shell = require('gulp-shell'),
-    jade = require('gulp-jade');
+    jade = require('gulp-jade'),
+    rename = require('gulp-rename');
 
 gulp.task('sass', function(){
-  return sass('src/sass/main.sass')
+  sass('src/sass/imports.sass')
   .on('error', sass.logError)
+  .pipe(rename('main.css'))
   .pipe(gulp.dest('dest'));
 });
 

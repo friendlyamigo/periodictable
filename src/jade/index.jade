@@ -6,7 +6,7 @@ html
   body    
     h1.title Periodic Table <span class="cursive">of&nbspthe</span> Elements
     
-    .table-container
+    #table-container
       
       table.primary-table
         thead
@@ -28,7 +28,12 @@ html
           include rows/secondary-row-one.jade
           include rows/secondary-row-two.jade
   
-  .element-info
+  #element-overlay
+    .element-info-card
+      .atomic-number
+      .charge
+      .symbol
+      .name
     
   
     script(src="jquery-2.1.4.min.js")

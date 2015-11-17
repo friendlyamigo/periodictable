@@ -3,9 +3,11 @@
   "description": "Periodic tabel of elements",
   "author": "jackfriend",
   "devDependencies": {
+    "bourbon": "^4.2.6",
     "browser-sync": "^2.9.12",
     "gulp": "^3.9.0",
     "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^2.0.5",
     "gulp-shell": "^0.5.1"
   }
