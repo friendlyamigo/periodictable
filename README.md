@@ -1,5 +1,5 @@
 # Periodic table
-This is a periodic table of elements. I am using some xml files (well quite a few actually). I am using JSON and [xmltodict](https://github.com/martinblech/xmltodict) to make my json "database". Jade and sass are used for markup and styles, while plain javascript is also used. I'll be using [bourbon](http://bourbon.io/), mainly for its *sassy* neat grid.
+This is a periodic table of elements. I am using some xml files (well quite a few actually). I am using JSON and [xmltodict](https://github.com/martinblech/xmltodict) to make my json "database". Jade and sass are used for markup and styles, while plain javascript is also used.
 ---
 Right now my node_modules include:
 - [browser-sync](https://github.com/BrowserSync/browser-sync)
@@ -13,5 +13,4 @@ Right now my node_modules include:
 Todo:
 - add charges ✔️
 - UX design for frontend
-- incorporate bourbon
 - setup git for gulp?
