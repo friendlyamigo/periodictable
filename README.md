@@ -12,5 +12,4 @@ Right now my node_modules include:
 
 Todo:
 - add charges ✔️
-- UX design for frontend
-- setup git for gulp?
+- UX design for frontend ✔️
