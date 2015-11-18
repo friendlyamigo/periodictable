@@ -59,11 +59,48 @@ function clearCard(){
 function populateInfoCard(active_element) {
   // grab info card
   var card = $('#element-overlay');
+  // get link
+  card.find('a').prop('href', tryElement(active_element['link']));
 
-  card.find('.atomic-number').append(active_element['atomic_number']);
-  card.find('.charge').append(active_element['charge']);
-  card.find('.symbol').append(active_element['symbol']);
-  card.find('.name').append(active_element['name']);
-  card.find('.mass-number').append(active_element['mass_number']);
+  card.find('.atomic-number').append(tryElement(active_element['atomic_number']));
+  card.find('.charge').append(formatCharges(tryElement(active_element['charge'])));
+  card.find('.symbol').append(tryElement(active_element['symbol']));
+  card.find('.name').append(tryElement(active_element['name']));
+  card.find('.mass-number').append(tryElement(active_element['mass_number']));
   // card.find('.additonal').append(active_element[]);
+};
+
+
+// formatter for the charges, make the charge have either a plus or minus sign
+function formatCharges(charges) {
+
+  if (charges.length > 1){
+
+    array = [];
+    for (var i in charges) {
+      if (charges[i] > 0) {
+        array[i] = '+' + charges[i] + '<br/>';
+      } else {
+        array[i] = charges[i] + '<br/>';
+      };
+    };
+    return array;
+
+  } else {
+    if (charges > 0) {
+      return '+' + charges + '<br/>';
+    } else {
+      return charges + '<br/>';
+    }
+  };
+};
+
+
+// try to see if attribute exists
+function tryElement(attr) {
+  if (attr == null) {
+    return "";
+  } else {
+    return attr;
+  }
 };
