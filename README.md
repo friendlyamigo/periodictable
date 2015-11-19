@@ -1,4 +1,7 @@
 # Periodic table
+
+View the Github pages site [here.](http://jackfriend.github.io/periodictable/)
+
 This is a periodic table of elements. I am using some xml files (well quite a few actually). I am using JSON and [xmltodict](https://github.com/martinblech/xmltodict) to make my json "database". Jade and sass are used for markup and styles, while plain javascript is also used.
 
 Right now my node_modules include:
