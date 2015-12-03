@@ -1,3 +1,6 @@
+var word = "here is my string."
+
+
 // grab the elements.json
 $.getJSON('elements.json',  function(result){
 
