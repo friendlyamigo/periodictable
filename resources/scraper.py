@@ -141,7 +141,8 @@ del elements_key['@xmlns:xlink']
 def trydict(a, link=False):
     if link:
         try:
-            element['link'] = 'https://en.wikipedia.org/wiki/' + spam[a]
+            # element['link'] = 'https://en.wikipedia.org/wiki/' + spam[a]
+            element['link'] = 'http://www.rsc.org/periodic-table/element/' + spam['atomic_number'] +'/' + spam['name']
         except:
             pass
     else:

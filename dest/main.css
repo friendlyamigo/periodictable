@@ -60,6 +60,9 @@ td {
 a {
   text-decoration: none; }
 
+#info {
+  font-size: 1.25em; }
+
 td {
   width: 38px;
   max-width: 38px;
@@ -138,3 +141,10 @@ body {
   .element-info-card .mass-number {
     position: relative;
     top: 85px; }
+
+#info {
+  text-align: right;
+  margin: 40px 0; }
+  #info span {
+    position: relative;
+    top: 6px; }

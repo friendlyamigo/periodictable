@@ -3,6 +3,7 @@ html
   head
     title Periodic Table of the Elements
     link(rel="stylesheet", href="main.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.css")
   body    
     h1.title Periodic Table <span class="cursive">of&nbspthe</span> Elements
     
@@ -28,6 +29,13 @@ html
           include rows/secondary-row-one.jade
           include rows/secondary-row-two.jade
   
+  
+  
+      #info
+        p View the code at&nbsp&nbsp<a href="https://github.com/friendlyamigo/periodictable"><span class="mega-octicon octicon-logo-github"></span</a>
+  
+  
+  
     #element-overlay
       
       .element-info-card
@@ -38,7 +46,7 @@ html
           .name
           .mass-number
           .additional
-      
+    
     
     script(src="jquery-2.1.4.min.js")
     script(src="functions.js")
